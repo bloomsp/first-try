@@ -1,1 +1,3 @@
 This is a sample file to see what happens with github
+I added and committed the file.
+now I'm adding more
