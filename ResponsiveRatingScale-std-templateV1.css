@@ -1,0 +1,437 @@
+/******************************************/
+/* main definition of rating scale objects*/
+/******************************************/
+/* background:  changes colour of background behind text */
+/* note that there may be more than one background property set to handle various browsers and capabilities */
+/* color: changes colour of text */
+
+.neb-spacing neb-rating .neb-rating {
+  height: auto;
+  min-height: 30px; }
+  .neb-spacing neb-rating .neb-rating .edge-labels {
+    margin-top: 5px;
+    line-height: 11px;
+    position: initial;
+    top: initial; }
+  .neb-spacing neb-rating .neb-rating > form {
+    height: 30px; }
+
+/* 0-10 rating scale size adjustments */
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-first-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-first-size {
+  width: 24px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-first-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-first-size label.rating-label {
+    height: 24px;
+    width: 24px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-first-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-first-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-second-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-second-size {
+  width: 24px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-second-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-second-size label.rating-label {
+    height: 24px;
+    width: 24px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-second-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-second-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-third-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-third-size {
+  width: 25px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-third-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-third-size label.rating-label {
+    height: 25px;
+    width: 25px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-third-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-third-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fourth-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fourth-size {
+  width: 26px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fourth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fourth-size label.rating-label {
+    height: 26px;
+    width: 26px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fourth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fourth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fifth-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fifth-size {
+  width: 27px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fifth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fifth-size label.rating-label {
+    height: 27px;
+    width: 27px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fifth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fifth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 2px; }
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-sixth-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-sixth-size {
+  width: 28px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-sixth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-sixth-size label.rating-label {
+    height: 28px;
+    width: 28px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-sixth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-sixth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 2px; }
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-seventh-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-seventh-size {
+  width: 8.7%;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-seventh-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-seventh-size label.rating-label {
+    height: 29px;
+    width: 29px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-seventh-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-seventh-size label.rating-label .native-display-value-in-rating {
+      padding-top: 3px; }
+
+.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-eighth-size, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-eighth-size {
+  width: 39.5px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-eighth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-eighth-size label.rating-label {
+    height: 29px;
+    width: 29px; }
+    .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-eighth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-eighth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 3px; }
+
+/* 1-10 rating scale size adjustments  */
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-first-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-first-size {
+  width: 24px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-first-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-first-size label.rating-label {
+    height: 24px;
+    width: 24px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-first-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-first-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-second-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-second-size {
+  width: 24px;
+  margin-right: 1.3% !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-second-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-second-size label.rating-label {
+    height: 24px;
+    width: 24px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-second-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-second-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-third-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-third-size {
+  width: 25px;
+  margin-right: 1.3% !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-third-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-third-size label.rating-label {
+    height: 25px;
+    width: 25px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-third-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-third-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fourth-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fourth-size {
+  width: 26px;
+  margin-right: 1.3% !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fourth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fourth-size label.rating-label {
+    height: 26px;
+    width: 26px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fourth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fourth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 1px; }
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fifth-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fifth-size {
+  width: 27px;
+  margin-right: 1.3% !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fifth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fifth-size label.rating-label {
+    height: 27px;
+    width: 27px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-fifth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-fifth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 2px; }
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-sixth-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-sixth-size {
+  width: 28px;
+  margin-right: 1.3% !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-sixth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-sixth-size label.rating-label {
+    height: 28px;
+    width: 28px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-sixth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-sixth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 2px; }
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-seventh-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-seventh-size {
+  width: 9.7%;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-seventh-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-seventh-size label.rating-label {
+    height: 29px;
+    width: 29px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-seventh-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-seventh-size label.rating-label .native-display-value-in-rating {
+      padding-top: 3px; }
+
+.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-eighth-size, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-eighth-size {
+  width: 44px;
+  margin-right: 1px !important; }
+  .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-eighth-size label.rating-label, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-eighth-size label.rating-label {
+    height: 29px;
+    width: 29px; }
+    .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.neb-rating-eighth-size label.rating-label .native-display-value-in-rating, .neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus.neb-rating-eighth-size label.rating-label .native-display-value-in-rating {
+      padding-top: 3px; }
+
+.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare {
+  width: 100%; }
+
+.neb-rating-html-implementation neb-rating .neb-rating.numbers .neb-rating-value, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value {
+  margin-bottom: 6px; }
+
+/* This next section alters background colours for unselected or neutral state */
+
+.neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label,
+ .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label,
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
+  height: 29px;
+  width: 29px;
+  background: #D4D4D4 !important; /* background colour*/
+  color: #a13139 !important; /* text colour unselected */
+  font-weight: 400;
+  border-radius: 100%;
+  font-size: 16px; 
+  /* The first colour sets the background, the second colour sets the border */
+	background: radial-gradient(ellipse at center, #5985F7 60%, #4769C5 62%);
+    /* The first colour sets the background, the second colour sets the border */
+    /* If rating scale is square, modify the settings in section labeled **SQUARE** */
+    /* the following background attribute will modify the ROUND ratings if a SQUARE one is defined later in this file */
+    background: -webkit-radial-gradient(center, ellipse cover, #5985F7 60%, #4769C5 62%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); */}
+ }
+
+
+/* modify colour of numerical rating - ON*/
+
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.on, 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.on, 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on {
+    background: #5985F7 !important;
+    color: #FFF !important; }
+
+/* modify colour of numerical rating - HOVER*/
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.hover, 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.hover, 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.hover {
+    background: #5985F7 !important;
+    color: #FFF !important; }
+
+/*modify colour of ROUND & SQUARE numerical rating - SELECTED */
+/* note: Each background definition is valid for various browsers. The browser will fall back to the one that works automatically */
+/* Most modern browsers will support the last and most complex background property in this section */ 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.selected, 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.selected, 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.selected {
+    background: #5985F7;
+    color: #fff !important; /* colour of text after selection*/
+    background: #5985F7; 
+    background: radial-gradient(ellipse at center, #5985F7 60%, #4769C5 62%);
+    /* The first colour sets the background, the second colour sets the border */
+    /* If rating scale is square, modify the settings in section labeled **SQUARE** */
+    /* the following background attribute will modify the ROUND ratings if a SQUARE one is defined later in this file */
+    background: -webkit-radial-gradient(center, ellipse cover, #5985F7 60%, #4769C5 62%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); */}
+    
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 10px; }
+
+/* modify colour of **SQUARE** ratings */
+.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
+  border-radius: 2px; }
+
+/* modify colour of **SQUARE** ratings - ON*/
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on {
+    background: #3D64CC; }
+/* modify colour of **SQUARE** ratings - HOVER */    
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.hover {
+    background: #2B4AA0; }
+/* modify colour of **SQUARE** ratings - SELECTED */    
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.selected {
+    background: linear-gradient(0deg, #2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC;
+    /* the following colour settings are for borders BOTTOM,LEFT, TOP, RIGHT, BACKGROUND*/
+    background: -webkit-linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC !important; }
+
+/* modify colour of **ROUND NPS** traffic light rating - ON */
+
+/* background colour of 0-6 ON*/
+.neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on {
+  background: #B3391C !important; }
+
+/* background colour of 7 & 8 ON*/  
+  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.seven, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.eight {
+    background: #A3A3A3 !important; }
+
+/* background colour of 9 & 10 ON*/
+  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.nine, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.on.ten {
+    background: #6A883E !important; }
+
+/* modify colour of round NPS traffic light rating - HOVER */
+
+/* background-color of 0-6 HOVER */
+.neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover {
+  background: #902F16 !important; }
+
+/* background-color of 7 & 8 HOVER */
+  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.seven, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.eight {
+    background: #808080 !important ; }
+
+/* background-color of 9 & 10 HOVER */
+  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.nine, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover.ten {
+    background: #4E642E !important; }
+
+/* modify colour of round NPS traffic light rating - SELECTED */
+
+/* background, border color of 0-6 SELECTED */
+.neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected {
+  background: #B3391C !important;
+  background: radial-gradient(ellipse at center, #B3391C 60%, #902F16 62%) !important;
+  background: -webkit-radial-gradient(center, ellipse cover, #B3391C 60%, #902F16 62%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
+
+/* background, border colour of 7 & 8 SELECTED */
+  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.seven, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.eight {
+    background: #A3A3A3 !important;
+    background: radial-gradient(ellipse at center, #A3A3A3 60%, #808080 62%) !important;
+    background: -webkit-radial-gradient(center, ellipse cover, #A3A3A3 60%, #808080 62%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
+
+/* background, border colour of 9 & 10 SELECTED */
+  .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.nine, .neb-rating-html-implementation neb-rating:not(.grading) .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.ten {
+    background: #6A883E !important;
+    background: radial-gradient(ellipse at center, #6A883E 60%, #4E642E 62%) !important;
+    background: -webkit-radial-gradient(center, ellipse cover, #6A883E 60%, #4E642E 62%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
+
+/* MOBILE scale settings */
+
+.kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+  margin: 0 1px 6px 0 !important;
+  padding: 0; }
+
+/* height */
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value label.rating-label, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value label.rating-label, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label {
+    height: 54px; }
+/* padding top to shift the number down */
+    .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value label.rating-label .native-display-value-in-rating, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label .native-display-value-in-rating, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value label.rating-label .native-display-value-in-rating, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus label.rating-label .native-display-value-in-rating {
+      padding-top: 15px; }
+/* border radius of cirlce (default 2px is more square)*/
+.kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label {
+  border-radius: 2px; }
+
+/* background-colour of 0-6 cirle*/
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected {
+    background: linear-gradient(0deg, #902F16 6%, transparent 0%), linear-gradient(90deg, #902F16 6%, transparent 0%), linear-gradient(180deg, #902F16 6%, transparent 0%), linear-gradient(270deg, #902F16 6%, transparent 0%), #B3391C;
+    background: -webkit-linear-gradient(90deg, #902F16 6%, transparent 0%), linear-gradient(90deg, #902F16 6%, transparent 0%), linear-gradient(180deg, #902F16 6%, transparent 0%), linear-gradient(270deg, #902F16 6%, transparent 0%), #B3391C; }
+/*background-color of 7-8 circle*/
+    .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.seven, .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.eight {
+      background: linear-gradient(0deg, #808080 6%, transparent 0%), linear-gradient(90deg, #808080 6%, transparent 0%), linear-gradient(180deg, #808080 6%, transparent 0%), linear-gradient(270deg, #808080 6%, transparent 0%), #A3A3A3;
+      background: -webkit-linear-gradient(90deg, #808080 6%, transparent 0%), linear-gradient(90deg, #808080 6%, transparent 0%), linear-gradient(180deg, #808080 6%, transparent 0%), linear-gradient(270deg, #808080 6%, transparent 0%), #A3A3A3; }
+/*background-color of 9-10 circle*/
+    .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.nine, .kpl-live-mobile.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected.ten {
+      background: linear-gradient(0deg, #4E642E 6%, transparent 0%), linear-gradient(90deg, #4E642E 6%, transparent 0%), linear-gradient(180deg, #4E642E 6%, transparent 0%), linear-gradient(270deg, #4E642E 6%, transparent 0%), #6A883E;
+      background: -webkit-linear-gradient(90deg, #4E642E 6%, transparent 0%), linear-gradient(90deg, #4E642E 6%, transparent 0%), linear-gradient(180deg, #4E642E 6%, transparent 0%), linear-gradient(270deg, #4E642E 6%, transparent 0%), #6A883E; }
+
+/* MOBILE settings for 0-10 rating type*/
+/* border-radius of circle (default 2px is more square)*/
+.kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label {
+  border-radius: 2px; }
+
+/* colour of circle ON */
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label.on {
+    background: #3D64CC; }
+
+/* colour of circle HOVER */
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label.hover {
+    background: #2B4AA0; }
+
+/* colour of circle SELECTED each border (bottom,left, top, right) and very last attribute is background colour*/    
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating.grading .neb-rating.numbersCircle .neb-rating-value label.rating-label.selected {
+    background: linear-gradient(0deg, #2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC;
+    background: -webkit-linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(90deg, #2B4AA0 6%, transparent 0%), linear-gradient(180deg, #2B4AA0 6%, transparent 0%), linear-gradient(270deg, #2B4AA0 6%, transparent 0%), #3D64CC; }
+
+@media screen and (max-width: 305px) {
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 24px; }
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 27px; } }
+
+@media screen and (min-width: 306px) and (max-width: 360px) {
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 8.72%; }
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 9.5%; } }
+
+@media screen and (min-width: 361px) and (max-width: 481px) {
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 8.72%; }
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 9.55%; } }
+
+@media screen and (min-width: 482px) {
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="0"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 40px; }
+  .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value, .kpl-live-mobile.neb-rating-html-implementation neb-rating[min-value="1"][max-value="10"] .neb-rating .neb-rating-value.on-focus {
+    width: 44px; } }
+
+.kpl-live-mobile.neb-rating-html-implementation .neb-rating.numbersCircle, .kpl-live-mobile.neb-rating-html-implementation .neb-rating.numbersSquare {
+  height: auto; }
+
+.kpl-live-mobile.neb-rating-html-implementation .neb-mobile-web .neb-web-component.neb-grading1to10 {
+  padding-left: 15px !important; }
+
+/* The following alter WCAG settings - DO NOT ALTER */
+/* This is commented out to preserve WCAG compliance */
+/* But for completeness I've left it here so if you want to make adjustments you can */
+/*
+.kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle, .kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersSquare {
+  height: auto; }
+  .kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus, .kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersSquare .neb-rating-value.on-focus {
+    border: none !important; }
+    .kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus label.rating-label, .kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersSquare .neb-rating-value.on-focus label.rating-label {
+      outline-offset: 0 !important; }
+    .kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus label.rating-label:after, .kpl-live-mobile.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersSquare .neb-rating-value.on-focus label.rating-label:after {
+      border: none !important;
+      position: relative; }
+
+.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value label.rating-label input[type="radio"] {
+  z-index: 1; }
+
+.neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus {
+  border: none !important;
+  margin: 0;
+  padding: 0; }
+  .neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus label.rating-label {
+    border-spacing: 10px;
+    position: relative; }
+  .neb-rating-html-implementation.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus label.rating-label:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 1px dashed #333333 !important;
+    border-radius: 50%; }
+
+.neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus, .neb-form-wcag neb-rating .neb-rating.numbers .neb-rating-value.on-focus, .neb-form-wcag neb-rating .neb-rating.emoticons .neb-rating-value.on-focus, .neb-form-wcag neb-rating .neb-rating.smilies .neb-rating-value.on-focus {
+  border: 1px dashed #333333 !important;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 2px;
+  margin: -3px; }
+  .neb-form-wcag neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus label.rating-label, .neb-form-wcag neb-rating .neb-rating.numbers .neb-rating-value.on-focus label.rating-label, .neb-form-wcag neb-rating .neb-rating.emoticons .neb-rating-value.on-focus label.rating-label, .neb-form-wcag neb-rating .neb-rating.smilies .neb-rating-value.on-focus label.rating-label {
+    outline: none !important; }
+
+.neb-form-wcag neb-rating .neb-rating.emoticons .neb-rating-value input[type="radio"], .neb-form-wcag neb-rating .neb-rating.smilies .neb-rating-value input[type="radio"], .neb-form-wcag neb-rating .neb-rating.stars .neb-rating-value input[type="radio"], .neb-form-wcag neb-rating .neb-rating.bars .neb-rating-value input[type="radio"] {
+  top: 0px; }
+
+.neb-form-wcag neb-rating .neb-rating.numbersSquare .neb-rating-value.on-focus label.rating-label, .neb-form-wcag neb-rating .neb-rating.stars .neb-rating-value.on-focus label.rating-label, .neb-form-wcag neb-rating .neb-rating.bars .neb-rating-value.on-focus label.rating-label {
+  outline-offset: 0 !important; }
+
+.neb-form-wcag neb-rating .neb-rating-value input[type="radio"] {
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: relative;
+  margin-top: 0px !important; }
+
+.neb-form-wcag.neb-rating-html-implementation neb-rating .neb-rating.numbersCircle .neb-rating-value.on-focus {
+  height: inherit; }
+*/
